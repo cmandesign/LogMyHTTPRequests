@@ -1,4 +1,4 @@
-# Log My Requests
+# Log My HTTP Requests
 
 ## Overview 
 This project is a simple http webserver that logs every requests with 200 Status code and help you to get full detail of request for diagnostic usage or whatever. 
