@@ -3,11 +3,16 @@
 ## Overview 
 This project is a simple http webserver that logs every requests with 200 Status code and help you to get full detail of request for diagnostic usage or whatever. 
 
-## How to Run ?
+## How to Install/Run ?
 
 ```
-#clone project 
+# clone project 
+
+# install virtualenv ( for the first time ) 
 pip install virtualenv
+pip install -r requirements.txt
+
+# actiate virtualenv ( after first time )
 virtualenv venv
 . venv/bin/activate
 export FLASK_DEBUG=1
